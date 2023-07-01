@@ -1,10 +1,17 @@
 
 import './App.css';
+import React from 'react';
+import{Header} from './Components/Header';
+import{AddTask} from './Components/AddTask';
+import{ShowTask} from './Components/ShowTask';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>hello world</h1>
+      <Header/>
+      <AddTask/>
+      <ShowTask/>
     </div>
   );
 }
