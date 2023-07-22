@@ -2,6 +2,11 @@ import React from 'react'
 
 export const ShowTask = () => {
   return (
-    <div><h1>Show Task</h1></div>
+    <section className='showTask'>
+      <div className='head'>
+        <span className='title'>To Do</span>
+        <span className='count'>0</span>
+      </div>
+    </section>
   )
 }
